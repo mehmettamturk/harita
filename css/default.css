@@ -1,0 +1,50 @@
+body {
+	background:#f3f3f3;
+	font:12px/18px 'Segoe UI','Lucida Grande',Verdana,Arial,Helvetica,sans-serif; line-height: 1.5em;
+	font-family:Calibri;
+	color:#47443f;
+	line-height: 1.5em;
+}
+a   {
+	color:#1669AD;
+}
+h1,p	{
+	text-align: center;
+	font-weight: normal;
+}
+
+.container{
+	position:relative;
+	width:1050px;
+	height:auto;
+	margin:0 auto;
+}
+
+#detail{
+	display:none;
+	position:absolute;
+	width:1050px;
+	height:auto;
+	margin:0 auto;
+	background: #fff;
+	border-top:1px solid #1669AD;
+	border-bottom:3px solid #1669AD;
+	z-index:999;
+}
+#map {
+	clear:both;
+	width:1050px;
+	height:620px;
+	position:relative;
+	top:-100px;
+}
+#map svg {
+	position: relative;
+	top: 0px;
+	left: 0px;
+}
+
+svg > a {
+	cursor: pointer;
+	display:block;
+}
